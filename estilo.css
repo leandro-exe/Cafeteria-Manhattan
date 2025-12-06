@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+span{
+  color: #c4a47c;
+}
+/*------- Topo */
+.topo{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+  .topo div{
+   background-color: #604829;
+    height: 60px;
+    position: relative;
+  }
+    .topo img{
+      width: 70px;
+      height: 70px;
+      position: absolute;
+      left: 15%;
+      top: -5px;
+    }
+    .topo a{
+      font-family: lato;
+      color: #c4a47c;
+      font-size: 15px;
+      font-weight: 600;
+      text-shadow: 2px 2px black;
+      margin-left: 10px;
+    }
+    .topo p{
+      position: absolute;
+      right: 15%;
+      top: 30%;
+    }
+/*-------- Banner */
+#banner{
+  background-image: url('assets/parallax-imagem1.png');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position:relative
+}
+  #banner h1{
+    font-family: 'Fraunces', serif;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+  }
+/*--------- Texto */
+.texto{
+  padding: 80px 0px;
+  background-color: #fff;
+  height: 350px;
+  position: relative;
+}
+  .texto h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #c4a47c;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+  }
+  .texto p{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #666;
+    max-width: 1024px;
+    padding: 0px 20px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 35%;
+  }
+  /*--------- Parallax 2 e 3*/
+.parallax2{
+  background-image: url('assets/parallax-imagem2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  position: relative;
+  }
+.parallax3{
+  background-image: url('assets/parallax-imagem3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  position: relative;
+  }
+#info h3{
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+  background-color: #604829;
+  max-width: 420px;
+  padding: 5px 20px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+/*-------- Contatos */
+#contato{
+  background-image: url('assets/parallax-imagem4.png');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
+  #contato h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    background-color: #604829;
+    max-width: 420px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 5%;
+  }
+  .linkscntt{
+    background-color: #604829;
+    max-width: 380px;
+    padding: 5px 20px;
+    margin: 40px auto;
+    text-align: center;
+  }
+    #contato a{
+     font-family: 'Oswald', sans-serif;
+     font-size: 16px;
+     color: #fff;
+     font-weight: 400;
+     text-shadow: 4px 4px 4px black;
+    }
+    #contato p{
+      margin: 15px 0;
+    }
+  iframe{
+    width: 1024px;
+    height: 450px;
+    display: block;
+    margin: 80px auto 0 auto;
+    text-align: center;
+  }
+/*--------- Horários*/
+#horarios{
+  height: 85vh;
+  background-image: url('assets/cafeteria.jpg');
+  background-size: cover;
+  position: relative;
+}
+  #horarios h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 210px;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+  ul{
+    width: 768px;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+  }
+    ul h3{
+      font-family: 'Oswald', sans-serif;
+      font-size: 20px;
+      color: #fff;
+      position: absolute;
+      right: 0;
+      left: 0;
+      margin-bottom: 20px;
+    }
+    li{
+      position: relative;
+      margin: 45px 0;
+    }
+    .linha{
+      width: 70%;
+      height: 1px;
+      background-color: #acacac;
+      margin: 0 auto;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+    ul p{
+      font-family: 'oswald', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #acacac;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+    ul span{
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+/*---------Rodapé*/
+.rodape{
+  background-color: #000;
+  position: relative;
+  padding: 20px 0;
+  text-align: center;
+}
+  .rodape p{
+    font-family: 'lato', sans-serif;
+    font-size: 16px;
+    color: #acacac;
+  }
+  .rodape img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+  }
